@@ -10,10 +10,13 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-image: url(/images/IMG_0170.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(253, 191, 227);
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
     position: relative;
 }
 
@@ -35,38 +38,51 @@ h1 {
 nav ul {
     list-style: none;
     padding: 10px 0;
+    margin: 0;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
 }
 nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
     display: inline-block;
-
-}
-
-
-nav ul li .button{
     text-decoration: none;
-    padding: 10px 15px;
-    font-size: 14px;
-    color: white;
-    background-color: #555;
+    padding: 10px 20px ;
+    background-color: #e283c2;
+    color: #fff;
     border-radius: 5px;
-    transition: all 0.3s ease;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+nav ul li .a:hover{
+    background-color: #e283c2;
+    transform: scale(1.05);
 }
 
 
-.footer {
-    background-color: #333;
-    color: #fff;
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #ff84c8;
+    color: #333;
     text-align: center;
     padding: 20px;
     margin-top: 40px;
   }
   
-  .footer a {
-    color: #faa6d4; /* Matches the pink theme */
+  footer a {
+    color: #faa6d4; 
     text-decoration: none;
   }
   
@@ -75,3 +91,70 @@ nav ul li .button{
   }
 
   
+  section 
+  {
+    margin: 10px;
+    padding: 15px;
+
+  }
+
+  h2 {
+    margin-left: 20px;
+    list-style: disc;
+    line-height: 1.6;
+  }
+
+  h3 {
+    color: #377c4c;
+    
+  }
+
+  .about-list ul {
+    margin: 20px;
+  }
+  .abt-container {
+    position: relative;
+    background-color: #df9bc8;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  #slider {
+    overflow: hidden;
+    position: relative;
+    height: auto;
+  }
+
+  .slider-serv{
+    display: none;
+    padding: 10px;
+  }
+
+  .slider-serv :active{
+    display: block;
+  }
+
+  .slider-serv-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #4Caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+
+  button:hover {
+    background-color: #45a049;
+}
