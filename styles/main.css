@@ -201,9 +201,25 @@ footer {
   background: #f9f9f9;
 }
 
+.list-container {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 6px;
+  border-radius:  5px;
+}
 
+.image-container img {
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
-
+.extra-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
 
 .map {
 margin: 20px;
