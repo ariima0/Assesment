@@ -261,11 +261,10 @@ section ul {
 
 .image-fade-container {
   position: relative;
-  width: 100%;
-  max-width: 600px;
-  height: 400px;
-  overflow: hidden;
-  margin: 20px auto;
+  width: 150px; 
+  height: 150px; 
+  border-radius: 50%; 
+  margin-left: auto; 
 }
 
 .fade-image {
@@ -274,9 +273,11 @@ section ul {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
+  object-fit: cover; 
+  border-radius: 50%; 
+  opacity: 0; 
+  transition: opacity 1s ease-in-out; 
+
 }
 
 .fade-image:first-child {
