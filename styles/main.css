@@ -102,6 +102,8 @@ footer {
     margin-left: 20px;
     list-style: disc;
     line-height: 1.6;
+    color: #e283c2;
+    text-shadow: #333;
   }
 
   h3 {
@@ -157,4 +159,35 @@ footer {
 
   button:hover {
     background-color: #45a049;
+}
+
+.header1 {
+  position: relative;
+  color: #ffffff;
+    background-color: #df9bc8;
+    border: 2px solid #5dad5f;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px;
+    max-width: 200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+.home-button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px ;
+  background-color: #e283c2;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.map {
+margin: 20px;
+max-width: 400px;
 }
