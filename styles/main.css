@@ -220,6 +220,11 @@ footer {
   gap: 20px;
   padding: 20px;
 }
+ul {
+  padding: 0;
+  list-style-type: disc;
+  padding-left: 20px;
+}
 
 .map {
 margin: 20px;
