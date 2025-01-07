@@ -31,7 +31,7 @@ h1 {
 
 .logo {
     height: 50px;
-    width: auto;
+    max-width: 120px;
     border-radius: 5px;
 }
 
@@ -98,16 +98,10 @@ footer {
 
   }
 
-  h2 {
-    margin-left: 20px;
-    list-style: disc;
-    line-height: 1.6;
-    color: #e283c2;
-    text-shadow: #333;
-  }
 
-  h3 {
+  h2, h3 {
     color: #377c4c;
+    margin-bottom: 10px;
     
   }
 
@@ -187,7 +181,29 @@ footer {
   transition: background-color 0.3s ease, transform 0.2s;
 }
 
+.home-button a{
+  text-align: none;
+  color: #377c4c;
+  font-weight: bold;
+}
+
+.hero-section {
+  display: grid;
+ background: #e7f5e9;
+ text-align: center;
+}
+
+.servercies-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+
+
+
 .map {
 margin: 20px;
 max-width: 400px;
 }
+
