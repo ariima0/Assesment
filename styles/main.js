@@ -8,12 +8,5 @@ function fadeImages() {
     images[currentIndex].style.opacity = 1; // Show next image
 }
 
-let interval;
-
-fadeContainer.addEventListener('mouseover', () => {
-    interval = setInterval(fadeImages, 2000); // Start fading on hover
-});
-
-fadeContainer.addEventListener('mouseout', () => {
-    clearInterval(interval); // Stop fading on hover out
-});
+// Start the fading action immediately and repeat every 2 seconds
+setInterval(fadeImages, 2000);
