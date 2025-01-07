@@ -226,6 +226,24 @@ ul {
   padding-left: 20px;
 }
 
+.hero {
+  background: linear-gradient(135deg, #4caf50, #2c7a3b);
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+
+
 .map {
 margin: 20px;
 max-width: 400px;
